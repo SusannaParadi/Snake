@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== FONTS ===============-->
+        
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Snake</title>
+    </head>
+<body>
+    <img class="snake-img" src="assets/img/snake.png" alt="snake">
+    <main>
+        <div class="game" id="game-board"></div>
+    </main>
+    <div class="buttons">
+        <button id="btn-up" value="38">
+            <i class="ri-arrow-up-line"></i>
+        </button>  
+        <button id="btn-left" value="37">
+            <i class="ri-arrow-left-line"></i>
+        </button>
+        <button id="btn-right" value="39">
+            <i class="ri-arrow-right-line"></i>
+        </button>
+        <button id="btn-down" value="40">
+            <i class="ri-arrow-down-line"></i>
+        </button> 
+    </div>
+    
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/game.js" type="module"></script>
+</body>
+</html>
