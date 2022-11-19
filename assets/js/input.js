@@ -4,7 +4,6 @@ const up = document.getElementById('btn-up');
 const left = document.getElementById('btn-left');
 const right = document.getElementById('btn-right');
 const down = document.getElementById('btn-down');
-const buttons = document.querySelectorAll('button');
 
 
 window.addEventListener('keydown', e => {
